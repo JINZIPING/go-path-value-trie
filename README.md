@@ -1,5 +1,5 @@
 # NAME
-prefix matching trie developed by golang
+prefix matching recall data structure based on trie
 
 ---
 
