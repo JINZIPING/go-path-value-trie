@@ -15,7 +15,7 @@ A high-performance, generic prefix-matching trie implemented in Go. This library
 ## Installation
 
 ```sh
-go get github.com/yourname/go-path-value-trie
+go get github.com/JINZIPING/go-path-value-trie
 ```
 
 ## Generic Design
