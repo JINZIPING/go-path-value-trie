@@ -15,7 +15,7 @@ A high-performance, generic prefix-matching trie implemented in Go. This library
 ## Installation
 
 ```sh
-go get github.com/JINZIPING/go-path-value-trie
+go get github.com/jinziping/go-path-value-trie
 ```
 
 ## Generic Design
@@ -46,7 +46,7 @@ func (v MyValue) GetScore() float32 { return v.Score }
 ### 1. Single Trie Usage (Generic)
 
 ```go
-import "github.com/yourname/go-path-value-trie/trie"
+import "github.com/jinziping/go-path-value-trie/trie"
 
 func main() {
     t := trie.NewPathValueTrie[MyValue](10) // max 10 values per node
