@@ -63,7 +63,7 @@ func main() {
 You can combine multiple tries (e.g., for original, pinyin, and abbreviation forms) and perform a unified search:
 
 ```go
-import "github.com/yourname/go-path-value-trie/trie"
+import "github.com/jinziping/go-path-value-trie/trie"
 
 func main() {
     qTrie := trie.NewPathValueTrie[MyValue](10)
